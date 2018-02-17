@@ -86,7 +86,7 @@ On successful signup user is created. This API accepts paginated request and res
 
 === Resource Structure
 
-include::{snippets}/user-controller-mock-service-test/get-users-list/1/response-fields.adoc[]
+include::user-controller-mock-service-test/get-users-list/1/response-fields.adoc[]
 
 
 [[get-users-list]]
@@ -103,9 +103,9 @@ response. If no user exists, null values are returned.
 
 ==== Example request
 
-include::{snippets}/user-controller-mock-service-test/get-users-list/1/curl-request.adoc[]
+include::user-controller-mock-service-test/get-users-list/1/curl-request.adoc[]
 
 ==== Example response
 
-include::{snippets}/user-controller-mock-service-test/get-users-list/1/http-response.adoc[]
+include::user-controller-mock-service-test/get-users-list/1/http-response.adoc[]
 
