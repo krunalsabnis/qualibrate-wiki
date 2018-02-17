@@ -1,0 +1,26 @@
+[source,options="nowrap"]
+----
+{
+  "content" : [ {
+    "userId" : 100,
+    "active" : false,
+    "uid" : "uid-0001",
+    "provider" : "provider",
+    "activatedAt" : "2018-02-17T11:34:19",
+    "loginAt" : "2018-02-17T11:34:19",
+    "logoutAt" : "2018-02-17T11:34:19",
+    "timestamp" : "2018-02-17T11:34:19",
+    "firstName" : "John",
+    "lastName" : "Smith",
+    "email" : "john.smith@email.com"
+  } ],
+  "last" : true,
+  "totalPages" : 1,
+  "totalElements" : 1,
+  "size" : 0,
+  "number" : 0,
+  "sort" : null,
+  "first" : true,
+  "numberOfElements" : 1
+}
+----

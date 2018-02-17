@@ -1,0 +1,84 @@
+|===
+|Path|Type|Description
+
+|`content`
+|`Array`
+|Array of user records
+
+|`content[].userId`
+|`Number`
+|User's unique identifier number
+
+|`content[].active`
+|`Boolean`
+|Current status of User. It can be Active \| Inactive
+
+|`content[].uid`
+|`String`
+|User's uuid
+
+|`content[].provider`
+|`String`
+|User's OAuth provider
+
+|`content[].activatedAt`
+|`String`
+|Timestamp when user has been activated
+
+|`content[].loginAt`
+|`String`
+|User's last login time
+
+|`content[].logoutAt`
+|`String`
+|User's last logout time
+
+|`content[].timestamp`
+|`String`
+|Timestamp when user details were updated last
+
+|`content[].firstName`
+|`String`
+|First name of the user
+
+|`content[].lastName`
+|`String`
+|Last name of the user
+
+|`content[].email`
+|`String`
+|Email id of the user. There can not be more than one user with same email id
+
+|`totalElements`
+|`Number`
+|Total number of elements in page
+
+|`totalPages`
+|`Number`
+|Total number of pages
+
+|`last`
+|`Boolean`
+|Flag to denote if this is a last page or result
+
+|`size`
+|`Number`
+|Size of page
+
+|`number`
+|`Number`
+|Page number
+
+|`sort`
+|`Null`
+|Details about fields used to sort results
+
+|`first`
+|`Boolean`
+|Is this the first page
+
+|`numberOfElements`
+|`Number`
+|Total number of elements
+
+|===
