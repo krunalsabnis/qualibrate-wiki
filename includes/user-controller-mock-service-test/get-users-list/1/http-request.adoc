@@ -1,0 +1,8 @@
+[source,http,options="nowrap"]
+----
+GET /api/v1/user/?page=0&size=2 HTTP/1.1
+Accept: application/json
+Accept: application/json
+Host: supplies-host:8080
+
+----
